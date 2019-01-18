@@ -1,0 +1,4 @@
+ListView<String> mealList = new ListView<>();
+            ObservableList<String> mealItems =FXCollections.observableArrayList (
+            "Fruit Salad", "Apples and Peanut Butter", "Mixed Nuts", "PB&J Sandwich", "Apple Pie");
+            mealList.setItems(mealItems);
